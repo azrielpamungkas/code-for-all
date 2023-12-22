@@ -1,4 +1,4 @@
-![[preview.png]]
+![](preview.png)
 
 > Preview Hasil
 
@@ -56,7 +56,7 @@ Tambahkan custom scripts pada `package.json`
 
 Lalu kita membuat folder `src/` dan file ~App.js~ dan `index.html`, maka strukturnya akan terlihat seperti ini:
 
-![[Screen Shot 2023-12-22 at 14.55.03.png]]
+![](struktur.png)
 
 Setelah itu kita modifikasi `App.js` dengen meng-import react, dan createRoot untuk membuat component pertama kita, dan men-rendernya.
 
@@ -101,7 +101,7 @@ Menulis JSX hampir sama dengan menulis HTML. Anda dapat menggunakan tag yang b
 
 Ketika JSX diletakkan di antara simbol `{/* dan */}`, teks di dalamnya akan menjadi komentar. Komentar tidak akan ditampilkan di browser dan tidak akan mengubah hasil code Anda. Sebagian editor teks akan menunjukkan komentar dalam teks warna abu-abu.
 
-![[Screen Shot 2023-12-22 at 20.23.53.png]]
+![](jsx.png)
 
 ```jsx
 import { createRoot } from "react-dom/client";
